@@ -1,7 +1,7 @@
 import { ACCESS_TOKEN, EXPIRES_IN, logout, TOKEN_TYPE } from "./common";
-import { BASE_API_URL } from "../data";
+// import { BASE_API_URL } from "../data";
 
-// const BASE_API_URL = import.meta.env.VITE_API_BASE_URL;
+const BASE_API_URL = import.meta.env.VITE_BASE_API_URL;
 
 
 const getAccessToken = () => {

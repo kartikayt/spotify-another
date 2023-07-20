@@ -1,7 +1,8 @@
 import './style.css';
-import { APP_URL } from "../data";
+// import { APP_URL } from "../data";
 
-// const APP_URL = import.meta.env.VITE_APP_URL;
+const APP_URL = import.meta.env.VITE_APP_URL;
+console.log(APP_URL);
 
 document.addEventListener("DOMContentLoaded", () => {
   if (localStorage.getItem("accessToken")) {

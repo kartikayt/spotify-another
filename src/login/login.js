@@ -1,8 +1,12 @@
 import { ACCESS_TOKEN, EXPIRES_IN, TOKEN_TYPE } from "../common";
-import { CLIENT_ID, REDIRECT_URI, APP_URL } from "../../data";
-// const CLIENT_ID = import.meta.env.VITE_CLIENT_ID;
-// const REDIRECT_URI = import.meta.env.VITE_REDIRECT_URI;
-// const APP_URL = import.meta.env.VITE_APP_URL;
+
+// import { CLIENT_ID, REDIRECT_URI, APP_URL } from "../../data";
+
+console.log(import.meta.env);
+
+const CLIENT_ID = import.meta.env.VITE_CLIENT_ID;
+const REDIRECT_URI = import.meta.env.VITE_REDIRECT_URI;
+const APP_URL = import.meta.env.VITE_APP_URL;
 
 
 const scopes = "user-top-read user-follow-read playlist-read-private user-library-read";
